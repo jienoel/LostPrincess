@@ -1,0 +1,76 @@
+
+公主.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 65, 3
+  size: 61, 28
+  orig: 61, 28
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 2
+  size: 61, 29
+  orig: 61, 29
+  offset: 0, 0
+  index: -1
+03
+  rotate: true
+  xy: 243, 92
+  size: 34, 11
+  orig: 34, 11
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 2, 33
+  size: 122, 93
+  orig: 122, 93
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 128, 19
+  size: 51, 35
+  orig: 51, 35
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 128, 2
+  size: 15, 37
+  orig: 15, 37
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 198, 62
+  size: 43, 64
+  orig: 43, 64
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 126, 56
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 181, 14
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 181, 14
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1

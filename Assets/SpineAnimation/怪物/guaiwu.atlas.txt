@@ -1,0 +1,34 @@
+
+guaiwu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 166, 168
+  size: 71, 49
+  orig: 71, 49
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 2
+  size: 76, 36
+  orig: 76, 36
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 40
+  size: 76, 50
+  orig: 76, 50
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 2, 92
+  size: 162, 125
+  orig: 162, 125
+  offset: 0, 0
+  index: -1
