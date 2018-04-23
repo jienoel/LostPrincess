@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5eaebfac-c2d3-4e03-b21c-4261b1b108a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile0.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile0.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile1.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile1.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile10.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile10.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile11.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile11.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile12.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile12.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile13.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile13.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile14.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile14.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile15.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile15.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile2.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile2.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile3.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile3.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile4.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile4.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile5.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile5.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile6.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile6.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile7.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile7.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile8.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile8.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile9.prefab" afterPath="$PROJECT_DIR$/Assets/NavMesh/Examples/Prefabs/DungeonTiles/Tile9.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/Demo.unity" afterPath="$PROJECT_DIR$/Assets/Scene/Demo.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpineAnimation/公主/公主_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/SpineAnimation/公主/公主_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpineAnimation/公主/公主_Material.mat" afterPath="$PROJECT_DIR$/Assets/SpineAnimation/公主/公主_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpineAnimation/怪物/guaiwu_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/SpineAnimation/怪物/guaiwu_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpineAnimation/怪物/guaiwu_Material.mat" afterPath="$PROJECT_DIR$/Assets/SpineAnimation/怪物/guaiwu_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon2.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon2.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_dragon.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_dragon.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_dragon2.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Dragon/dragon_dragon2.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Eyes/eyes_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/Equipment/Equipment_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/FootSoldier/FS_White_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Gauge/Gauge_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Goblins/goblins_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Hero/hero-mesh_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raggedy Spineboy/Raggedy Spineboy_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Raptor/raptor_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Spineunitygirl/Doi_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/Strechyman/stretchyman-diffuse-pma_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-pro/spineboy_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy.png.meta" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy_Atlas.asset" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy_Atlas.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy_Material.mat" afterPath="$PROJECT_DIR$/Assets/spine-unity/Assets/Examples/Spine/spineboy-unity/spineboy_Material.mat" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a6/a66d07c9c376f45b58b9a8e75cf2371a" afterPath="$PROJECT_DIR$/Library/metadata/a6/a66d07c9c376f45b58b9a8e75cf2371a" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c0/c034249a9d98d42299f292efeaeae1e6" afterPath="$PROJECT_DIR$/Library/metadata/c0/c034249a9d98d42299f292efeaeae1e6" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NumberCount.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/NumberCount.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+              <folding>
+                <marker date="1524480157934" expanded="true" signature="6:149" ph="..." />
+                <marker date="1524480157934" expanded="true" signature="191:1929" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="709:845" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="736:842" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="786:838" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="862:1408" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1069:1115" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1155:1308" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1315:1405" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1438:1651" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1537:1578" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1594:1648" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1679:1895" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1781:1822" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1838:1892" ph="{...}" />
+                <marker date="1524480157934" expanded="true" signature="1918:1927" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeWriter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/TypeWriter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="26" />
+              <folding>
+                <marker date="1524478405691" expanded="true" signature="6:100" ph="..." />
+                <marker date="1524478405691" expanded="true" signature="141:811" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="309:316" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="371:378" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="404:427" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="460:603" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="479:553" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="627:753" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="659:729" ph="{...}" />
+                <marker date="1524478405691" expanded="true" signature="780:809" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level0Ctrl.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Level/Level0Ctrl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <marker date="1524480835029" expanded="true" signature="6:135" ph="..." />
+                <marker date="1524480835029" expanded="true" signature="176:974" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="473:480" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="535:696" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="601:693" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="721:856" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="883:912" ph="{...}" />
+                <marker date="1524480835029" expanded="true" signature="937:972" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Princess.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Princess/Princess.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <marker date="1524451457844" expanded="false" signature="6:100" ph="..." />
+                <marker date="1524451457844" expanded="true" signature="137:980" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="213:268" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="315:321" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="373:395" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="415:978" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="540:746" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="591:742" ph="{...}" />
+                <marker date="1524451457844" expanded="true" signature="821:945" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/68/e7f50235/Grid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level/Level0Ctrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/68/e7f50235/Grid.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Princess/Princess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/TypeWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/NumberCount.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behavior/TypeWriter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behavior/NumberCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level/Level0Ctrl.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LostPrincess (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LostPrincess (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LostPrincess (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LostPrincess (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LostPrincess (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Behavior" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="princes&#9;null&#9;null&#10;level&#9;null&#9;null&#10;grid&#9;null&#9;null" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eaebfac-c2d3-4e03-b21c-4261b1b108a4" name="Default" comment="" />
+      <created>1524467751543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524467751543</updated>
+      <workItem from="1524467760977" duration="715000" />
+      <workItem from="1524469183029" duration="9720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10435000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/68/e7f50235/Grid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/TypeWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <marker date="1524478405691" expanded="true" signature="6:100" ph="..." />
+            <marker date="1524478405691" expanded="true" signature="141:811" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="309:316" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="371:378" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="404:427" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="460:603" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="479:553" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="627:753" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="659:729" ph="{...}" />
+            <marker date="1524478405691" expanded="true" signature="780:809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behavior/NumberCount.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding>
+            <marker date="1524480157934" expanded="true" signature="6:149" ph="..." />
+            <marker date="1524480157934" expanded="true" signature="191:1929" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="709:845" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="736:842" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="786:838" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="862:1408" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1069:1115" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1155:1308" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1315:1405" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1438:1651" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1537:1578" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1594:1648" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1679:1895" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1781:1822" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1838:1892" ph="{...}" />
+            <marker date="1524480157934" expanded="true" signature="1918:1927" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Level/Level0Ctrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <marker date="1524480835029" expanded="true" signature="6:135" ph="..." />
+            <marker date="1524480835029" expanded="true" signature="176:974" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="473:480" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="535:696" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="601:693" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="721:856" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="883:912" ph="{...}" />
+            <marker date="1524480835029" expanded="true" signature="937:972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Princess/Princess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <marker date="1524451457844" expanded="false" signature="6:100" ph="..." />
+            <marker date="1524451457844" expanded="true" signature="137:980" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="213:268" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="315:321" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="373:395" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="415:978" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="540:746" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="591:742" ph="{...}" />
+            <marker date="1524451457844" expanded="true" signature="821:945" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
