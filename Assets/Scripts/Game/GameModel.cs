@@ -6,4 +6,6 @@ public class GameModel : MonoBehaviour
 {
 	public GameObject treeParent;
 	public Tree treePrefab;
+	public BoneFire boneFirePrefab;
+	public GameObject boneFireParent;
 }

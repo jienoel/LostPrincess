@@ -17,10 +17,14 @@ public class ClickToMove : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftShift))
         {
-            Debug.Log( Input.mousePosition );
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray.origin, ray.direction, out m_HitInfo))
+            {
+                Debug.Log( m_HitInfo.point.ToString() );
+
                 m_Agent.destination = m_HitInfo.point;
+
+            }
         }
     }
 }

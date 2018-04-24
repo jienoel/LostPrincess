@@ -7,6 +7,175 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="2DDL" t="Include">
+          <e p="2DLight" t="Include">
+            <e p="AssetUtility" t="Include">
+              <e p="AssetUtility.cs" t="Include" />
+            </e>
+            <e p="BugReport" t="Include">
+              <e p="Editor" t="Include">
+                <e p="BugReportWindow.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Core" t="Include">
+              <e p="CasterCollider.cs" t="Include" />
+              <e p="CoreUtils.cs" t="Include" />
+              <e p="DynamicLight.cs" t="Include" />
+              <e p="DynamicLightEvents.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CheckUpdate" t="Include">
+                  <e p="CheckUpdateAsset.cs" t="Include" />
+                  <e p="CheckUpdateBuilder.cs" t="Include" />
+                  <e p="CheckUpdateWindow.cs" t="Include" />
+                </e>
+                <e p="DynamicLightDrawGizmo.cs" t="Include" />
+                <e p="DynamicLightEditor.cs" t="Include" />
+                <e p="DynamicLightHierarchyIcon.cs" t="Include" />
+                <e p="DynamicLightMenu.cs" t="Include" />
+                <e p="EditorUtils.cs" t="Include" />
+                <e p="PostProcessMethods.cs" t="Include" />
+                <e p="Settings" t="Include">
+                  <e p="DynamicLightSetting.cs" t="Include" />
+                  <e p="SettingsManager.cs" t="Include" />
+                  <e p="SettingsWindow.cs" t="Include" />
+                  <e p="TagLayerClass.cs" t="Include" />
+                </e>
+                <e p="SortingMethod.cs" t="Include" />
+              </e>
+            </e>
+            <e p="PropertyDrawers" t="Include">
+              <e p="Attributes.cs" t="Include" />
+              <e p="ButtonAttributeDrawer.cs" t="Include" />
+              <e p="FieldDescriptionAttributeDrawer.cs" t="Include" />
+              <e p="IncrementableAttribute.cs" t="Include" />
+              <e p="IncrementableAttributeDrawer.cs" t="Include" />
+              <e p="PopUpAttributeDrawer.cs" t="Include" />
+              <e p="SeparatorAttributeDrawer.cs" t="Include" />
+              <e p="TitleAttributeDrawer.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CGTexturizing.shader" t="Include" />
+              <e p="DefaultTexturized.shader" t="Include" />
+              <e p="DefaultTexturizedAdditive.shader" t="Include" />
+              <e p="DefaultTexturizedWithAlpha.shader" t="Include" />
+              <e p="DepthMask.shader" t="Include" />
+              <e p="Gradient-ZFighting.shader" t="Include" />
+              <e p="occluded.shader" t="Include" />
+              <e p="occluder.shader" t="Include" />
+              <e p="OffsetShader.shader" t="Include" />
+              <e p="RadialGradientAlphaBlend.shader" t="Include" />
+              <e p="StencilMask.shader" t="Include" />
+              <e p="StencilObject.shader" t="Include" />
+              <e p="VertexColor.shader" t="Include" />
+            </e>
+            <e p="Sight" t="Include">
+              <e p="SightListenerTemplate.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="more" t="Include">
+                <e p="CoroutineExt" t="Include">
+                  <e p="CoroutineExtentions.cs" t="Include" />
+                </e>
+                <e p="ExtendsMe.cs" t="Include" />
+                <e p="fpsClass.cs" t="Include" />
+                <e p="GLDebug.cs" t="Include" />
+                <e p="interface_touch.cs" t="Include" />
+                <e p="SetRenderQueue.cs" t="Include" />
+                <e p="TablaSenoCoseno.cs" t="Include" />
+                <e p="TimerClass.cs" t="Include" />
+              </e>
+              <e p="RegisterCaster.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Add-ons" t="Include">
+            <e p="AddOnBase" t="Include">
+              <e p="AddOnBase.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AddOnBaseEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ColorBlending.cs" t="Include" />
+            <e p="Fire.cs" t="Include" />
+            <e p="Illumination.cs" t="Include" />
+            <e p="LensFlares.cs" t="Include" />
+            <e p="LookAt.cs" t="Include" />
+            <e p="Rotation.cs" t="Include" />
+            <e p="Source.cs" t="Include" />
+          </e>
+          <e p="Bugs" t="Include">
+            <e p="READ FIRST.txt" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="0 - DUNGEON GAME" t="Include">
+              <e p="BlinkLight.cs" t="Include" />
+              <e p="CatchTheBlueTorch.cs" t="Include" />
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="CreditsScript.cs" t="Include" />
+              <e p="followPlayer.cs" t="Include" />
+              <e p="OpenEgyptianGate.cs" t="Include" />
+              <e p="SetProximityFactor.cs" t="Include" />
+              <e p="UnlockTheExitDoor.cs" t="Include" />
+            </e>
+            <e p="12 - Create and register Casters by code" t="Include">
+              <e p="addingCastersUnefficient.cs" t="Include" />
+              <e p="UsingAddColliderToScene.cs" t="Include" />
+            </e>
+            <e p="13 - Delete Casters by code in PlayMode" t="Include">
+              <e p="DeleteCasters.cs" t="Include" />
+            </e>
+            <e p="14 - Creation of both 2DDLight and Casters Procedurally" t="Include">
+              <e p="ProceduralLightAndCasters.cs" t="Include" />
+            </e>
+            <e p="15 - Light with Physics" t="Include">
+              <e p="followBody.cs" t="Include" />
+            </e>
+            <e p="16 - Soft and Smooth shadows edges" t="Include">
+              <e p="_BloomAndFlares" t="Include">
+                <e p="MobileBlur.shader" t="Include" />
+              </e>
+              <e p="Blur.cs" t="Include" />
+              <e p="PostEffectsBase.cs" t="Include" />
+            </e>
+            <e p="2 - Fire Light" t="Include">
+              <e p="AnimateFireSprite.cs" t="Include" />
+            </e>
+            <e p="3 - Multiples Lights" t="Include">
+              <e p="interface_manager.cs" t="Include" />
+            </e>
+            <e p="4 - Events" t="Include">
+              <e p="InstanceEvents.cs" t="Include" />
+            </e>
+            <e p="5 - Bomb Explosion Simulation and Visibility algorithm" t="Include">
+              <e p="bomb.cs" t="Include" />
+              <e p="PlayerStatusManager.cs" t="Include" />
+            </e>
+            <e p="6 - Fog of War with Occlusion effect and Sight with dispatch events" t="Include">
+              <e p="OcclusionEventsDelegate.cs" t="Include" />
+            </e>
+            <e p="9 - Light Car" t="Include">
+              <e p="SpawnCasters.cs" t="Include" />
+            </e>
+            <e p="__Examples_Scripts" t="Include">
+              <e p="CharacterController2D" t="Include">
+                <e p="CharacterController2D.cs" t="Include" />
+              </e>
+              <e p="restoreStone.cs" t="Include" />
+              <e p="rotate.cs" t="Include" />
+              <e p="rotationUsingSync.cs" t="Include" />
+              <e p="SmoothFollow.cs" t="Include" />
+            </e>
+            <e p="OLD Examples" t="Include">
+              <e p="0 - First Simple" t="Include">
+                <e p="punchRadius.cs" t="Include" />
+              </e>
+              <e p="8 - ConeOfSight - FieldOfView" t="Include">
+                <e p="bullet.cs" t="Include" />
+                <e p="Fire.cs" t="Include" />
+                <e p="rotate_2.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="NavMesh" t="Include">
           <e p="Examples" t="Include">
             <e p="Editor" t="Include">
@@ -65,11 +234,23 @@
             <e p="SpriteFlipCtrl.cs" t="Include" />
             <e p="TypeWriter.cs" t="Include" />
           </e>
+          <e p="BoneFire" t="Include">
+            <e p="BoneFire.cs" t="Include" />
+          </e>
           <e p="Camera" t="Include">
             <e p="CameraController.cs" t="Include" />
           </e>
+          <e p="Data" t="Include">
+            <e p="Level" t="Include">
+              <e p="LevelConfig.cs" t="Include" />
+              <e p="MonsterConfig.cs" t="Include" />
+              <e p="PlotConfig.cs" t="Include" />
+              <e p="TreeConfig.cs" t="Include" />
+            </e>
+          </e>
           <e p="Editor" t="Include">
             <e p="Tools" t="Include">
+              <e p="MeshSave.cs" t="Include" />
               <e p="SpriteInfoTool.cs" t="Include" />
             </e>
           </e>
@@ -79,6 +260,9 @@
           </e>
           <e p="Level" t="Include">
             <e p="Level0Ctrl.cs" t="Include" />
+            <e p="Level1" t="Include">
+              <e p="LevelLoadExporter.cs" t="Include" />
+            </e>
           </e>
           <e p="Princess" t="Include">
             <e p="Princess.cs" t="Include" />
@@ -90,10 +274,12 @@
           </e>
           <e p="Test" t="Include">
             <e p="BounderTest.cs" t="Include" />
+            <e p="FogTest.cs" t="Include" />
+            <e p="FOVMesh.cs" t="Include" />
             <e p="TestPrincessAnim.cs" t="Include" />
           </e>
           <e p="Tools" t="Include">
-            <e p="PlantTree.cs" t="Include" />
+            <e p="PlantElement.cs" t="Include" />
           </e>
           <e p="Tree" t="Include">
             <e p="Tree.cs" t="Include" />
@@ -103,6 +289,11 @@
             <e p="MathUtility.cs" t="Include" />
             <e p="SpriteUtility.cs" t="Include" />
           </e>
+        </e>
+        <e p="Shader" t="Include">
+          <e p="Circle Anti-Aliasing.shader" t="Include" />
+          <e p="CircleSeletor.shader" t="Include" />
+          <e p="Mask.shader" t="Include" />
         </e>
         <e p="spine-csharp" t="Include">
           <e p="Properties" t="Include">

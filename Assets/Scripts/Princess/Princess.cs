@@ -21,18 +21,22 @@ public class Princess:MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		CheckInput();
+		if (Game.Instance.operateType == Game.OperateType.ClickToMove)
+		{
+			CheckInput();
+		}
 	}
 
 	void CheckInput()
 	{
-		Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
-		RaycastHit hit;
+	
 		if( Input.GetButtonDown( "Fire1" ) )
-		{
+		{	
+			Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
+			RaycastHit hit;
 			if( Physics.Raycast( ray, out hit, 1000 ) )
 			{
-				Debug.Log( "Fire1 " +hit.point);
+				Debug.Log( "Fire1 " +hit.point.ToString());
 				_navMeshAgent.SetDestination( hit.point );
 				_navMeshAgent.isStopped = false;
 				walking = true;
