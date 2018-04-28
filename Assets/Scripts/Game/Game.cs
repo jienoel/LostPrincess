@@ -1,18 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Battle;
 using UnityEngine;
 
-[ExecuteInEditMode]
+
 public  class Game :MonoBehaviour
 {
 	public GameModel gameModel;
 	public static Game Instance;
-	private void Awake()
-	{
-		Instance = this;
-		if( gameModel == null )
-			gameModel = GetComponent<GameModel>();
-	}
+	//TODO @chenjie 测试代码，需删除
+	public bool testChangeFog;
+	public Camera mainCamera;
+	public bool isReadDiary;
 	
 	public enum  OperateType
 	{
@@ -36,5 +35,38 @@ public  class Game :MonoBehaviour
 		{
 			operateType = OperateType.PlantFire;
 		}
+
+		if (testChangeFog && Application.isPlaying)
+		{
+			ChangeFog();
+			//testChangeFog = false;
+		}
+	}
+
+	void Start()
+	{
+		Instance = this;
+		if( gameModel == null )
+			gameModel = GetComponent<GameModel>();
+		mainCamera = Camera.main;
+		// fow系统启动
+		FOWLogic.instance.Startup();
+		Messenger.AddListener<bool>(MessageName.MN_Diary_Read, OnReadDiary);
+	}
+
+	 void OnDestroy()
+	{
+		//Messenger.RemoveListener<bool>(MessageName.MN_Diary_Read, OnReadDiary);
+		Instance = null;
+	}
+
+	void OnReadDiary(bool isReading)
+	{
+		this.isReadDiary = isReading;
+	}
+
+	public void ChangeFog()
+	{
+		FOWLogic.instance.Update(0);
 	}
 }

@@ -24,12 +24,18 @@ public class LaunchArcMesh : MonoBehaviour
 	{
 		if( mesh != null && Application.isPlaying )
 		{
-			MakeArcMesh(CalculateArcArray());
+			Show();
 		}
 	}
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+		Show();
+	}
+
+	public void Show()
+	{
 		MakeArcMesh(CalculateArcArray());
 	}
 

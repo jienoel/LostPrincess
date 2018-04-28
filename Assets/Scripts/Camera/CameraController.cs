@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour {
 	void Start ()
 	{
 		GameUtility.CalculateOrthographicCameraBorderBySprite( Camera.main, mapRender, out minX, out maxX, out minY, out maxY );
-		Debug.Log( "Player local pos:"+mapRender.transform.InverseTransformPoint( player.transform.position ) );
+		Debug.Log( "Player local pos:"+mapRender.transform.InverseTransformPoint( player.transform.position ).ToString() );
 		CalculateCenterArea();
 	}
 
@@ -39,7 +39,8 @@ public class CameraController : MonoBehaviour {
 
 	void LateUpdate ()
 	{
-		CheckPlayerPosChange();
+		if (!Game.Instance.isReadDiary)
+			CheckPlayerPosChange();
 	}
 
 	void CheckPlayerPosChange()

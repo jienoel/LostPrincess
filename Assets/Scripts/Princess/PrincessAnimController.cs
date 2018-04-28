@@ -35,7 +35,10 @@ public class PrincessAnimController:MonoBehaviour
     private TrackEntry currAnimation;
     void Start()
     {
-        skeletonAnimation = gameObject.GetComponent<SkeletonAnimation>();
+        if (skeletonAnimation == null)
+        {
+            skeletonAnimation = gameObject.GetComponent<SkeletonAnimation>();
+        }
         spineAnimationState = skeletonAnimation.AnimationState;
         skeleton = skeletonAnimation.Skeleton;
     }
@@ -47,12 +50,12 @@ public class PrincessAnimController:MonoBehaviour
 
     public void SetRun()
     {
-        
+        SetAnimaiton(runAnimation,true);
     }
 
     public void SetWait()
     {
-        
+        SetAnimaiton(waitAnimation, true);
     }
 
     public void SetDie()
@@ -71,16 +74,13 @@ public class PrincessAnimController:MonoBehaviour
     }
 
 
-    void SetAnimaiton( string animation , bool loop )
+    void SetAnimaiton( string animation , bool loop , bool interrup = false)
     {
-        if( currAnimation == null  || currAnimation.IsComplete)
+        if( currAnimation == null || interrup || currAnimation.animation.name != animation && currAnimation.IsComplete )
         {
             currAnimation = spineAnimationState.SetAnimation( 0, animation, loop );
         }
-        else
-        {
-           
-        }
+         
     }
 
 

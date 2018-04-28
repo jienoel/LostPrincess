@@ -34,9 +34,9 @@ public class TypeWriter : MonoBehaviour
 		{
 			txt.text = story;
 			StopAllCoroutines();
-			isTyping = false;
+			
 		}
-
+		isTyping = true;
 		story = text;
 		StartCoroutine(PlayText());
 	}
@@ -44,7 +44,7 @@ public class TypeWriter : MonoBehaviour
 	{
 		foreach (char c in story) 
 		{
-			txt.text += c;
+			txt.text += c.ToString();
 			yield return new WaitForSeconds (delay);
 		}
 

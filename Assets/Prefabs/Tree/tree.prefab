@@ -150,11 +150,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1210651488337456}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7aac9019a848a43509967b62acf5a6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  treeTex: {fileID: 212868172562991070}
 --- !u!136 &136057399693398712
 CapsuleCollider:
   m_ObjectHideFlags: 1

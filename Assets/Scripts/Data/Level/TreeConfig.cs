@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class TreeVO
+public class TreeItem
 {
 	public Vector3 position;
 	public Vector3 rotation;
 	public Vector3 scale;
 }
 
+[CreateAssetMenu(fileName = "TreeConfig",menuName = "Level/TreeConfig", order = 30)]
 public class TreeConfig : ScriptableObject
 {
-	public List<TreeVO> trees = new List<TreeVO>();
+	public List<TreeItem> trees = new List<TreeItem>();
 }

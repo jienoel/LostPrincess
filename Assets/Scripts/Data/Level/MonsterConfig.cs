@@ -2,15 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterConfig : MonoBehaviour {
+[CreateAssetMenu(fileName = "MonsterConfig",menuName = "Level/MonsterConfig", order = 30)]
+public class MonsterConfig : ScriptableObject {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

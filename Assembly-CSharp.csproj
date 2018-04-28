@@ -52,68 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2DDL\2DLight\AssetUtility\AssetUtility.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Core\CasterCollider.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Core\CoreUtils.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Core\DynamicLight.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Core\DynamicLightEvents.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\Attributes.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\ButtonAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\FieldDescriptionAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\IncrementableAttribute.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\IncrementableAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\PopUpAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\SeparatorAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\PropertyDrawers\TitleAttributeDrawer.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Sight\SightListenerTemplate.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\CoroutineExt\CoroutineExtentions.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\ExtendsMe.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\fpsClass.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\GLDebug.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\interface_touch.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\SetRenderQueue.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\TablaSenoCoseno.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\more\TimerClass.cs" />
-    <Compile Include="Assets\2DDL\2DLight\Utils\RegisterCaster.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\AddOnBase\AddOnBase.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\ColorBlending.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\Fire.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\Illumination.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\LensFlares.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\LookAt.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\Rotation.cs" />
-    <Compile Include="Assets\2DDL\Add-ons\Source.cs" />
-    <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\CharacterController2D\CharacterController2D.cs" />
-    <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\restoreStone.cs" />
-    <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\rotate.cs" />
-    <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\rotationUsingSync.cs" />
-    <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\SmoothFollow.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\BlinkLight.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\CatchTheBlueTorch.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\CharacterMovement.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\CreditsScript.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\followPlayer.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\OpenEgyptianGate.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\SetProximityFactor.cs" />
-    <Compile Include="Assets\2DDL\Examples\0 - DUNGEON GAME\UnlockTheExitDoor.cs" />
-    <Compile Include="Assets\2DDL\Examples\12 - Create and register Casters by code\addingCastersUnefficient.cs" />
-    <Compile Include="Assets\2DDL\Examples\12 - Create and register Casters by code\UsingAddColliderToScene.cs" />
-    <Compile Include="Assets\2DDL\Examples\13 - Delete Casters by code in PlayMode\DeleteCasters.cs" />
-    <Compile Include="Assets\2DDL\Examples\14 - Creation of both 2DDLight and Casters Procedurally\ProceduralLightAndCasters.cs" />
-    <Compile Include="Assets\2DDL\Examples\15 - Light with Physics\followBody.cs" />
-    <Compile Include="Assets\2DDL\Examples\16 - Soft and Smooth shadows edges\Blur.cs" />
-    <Compile Include="Assets\2DDL\Examples\16 - Soft and Smooth shadows edges\PostEffectsBase.cs" />
-    <Compile Include="Assets\2DDL\Examples\2 - Fire Light\AnimateFireSprite.cs" />
-    <Compile Include="Assets\2DDL\Examples\3 - Multiples Lights\interface_manager.cs" />
-    <Compile Include="Assets\2DDL\Examples\4 - Events\InstanceEvents.cs" />
-    <Compile Include="Assets\2DDL\Examples\5 - Bomb Explosion Simulation and Visibility algorithm\bomb.cs" />
-    <Compile Include="Assets\2DDL\Examples\5 - Bomb Explosion Simulation and Visibility algorithm\PlayerStatusManager.cs" />
-    <Compile Include="Assets\2DDL\Examples\6 - Fog of War with Occlusion effect and Sight with dispatch events\OcclusionEventsDelegate.cs" />
-    <Compile Include="Assets\2DDL\Examples\9 - Light Car\SpawnCasters.cs" />
-    <Compile Include="Assets\2DDL\Examples\OLD Examples\0 - First Simple\punchRadius.cs" />
-    <Compile Include="Assets\2DDL\Examples\OLD Examples\8 - ConeOfSight - FieldOfView\bullet.cs" />
-    <Compile Include="Assets\2DDL\Examples\OLD Examples\8 - ConeOfSight - FieldOfView\fire.cs" />
-    <Compile Include="Assets\2DDL\Examples\OLD Examples\8 - ConeOfSight - FieldOfView\rotate_2.cs" />
+    <Compile Include="Assets\2d_TDP\Script\Appear.cs" />
+    <Compile Include="Assets\2d_TDP\Script\DialogBubble.cs" />
+    <Compile Include="Assets\2d_TDP\Script\PixelBubble.cs" />
+    <Compile Include="Assets\2d_TDP\Script\SwitchScene.cs" />
+    <Compile Include="Assets\Book-Page Curl\scripts\AutoFlip.cs" />
+    <Compile Include="Assets\Book-Page Curl\scripts\NoteBook.cs" />
     <Compile Include="Assets\NavMesh\Examples\Scripts\AgentLinkMover.cs" />
     <Compile Include="Assets\NavMesh\Examples\Scripts\ClickToMove.cs" />
     <Compile Include="Assets\NavMesh\Examples\Scripts\DestroyOnTrigger.cs" />
@@ -137,18 +81,44 @@
     <Compile Include="Assets\NavMesh\Tests\NavMeshSurfaceModifierTests.cs" />
     <Compile Include="Assets\NavMesh\Tests\NavMeshSurfaceModifierVolumeTests.cs" />
     <Compile Include="Assets\NavMesh\Tests\NavMeshSurfaceTests.cs" />
+    <Compile Include="Assets\Scripts\Behavior\BookColliderDetector.cs" />
     <Compile Include="Assets\Scripts\Behavior\NumberCount.cs" />
+    <Compile Include="Assets\Scripts\Behavior\SpeechBubble.cs" />
     <Compile Include="Assets\Scripts\Behavior\SpriteFlipCtrl.cs" />
     <Compile Include="Assets\Scripts\Behavior\TypeWriter.cs" />
     <Compile Include="Assets\Scripts\BoneFire\BoneFire.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Cinema\DiaryView.cs" />
+    <Compile Include="Assets\Scripts\Data\Level\DiaryConfig.cs" />
+    <Compile Include="Assets\Scripts\Data\Level\DiaryItem.cs" />
+    <Compile Include="Assets\Scripts\Data\Level\InnerOSConfig.cs" />
+    <Compile Include="Assets\Scripts\Data\Level\InnerOSItem.cs" />
     <Compile Include="Assets\Scripts\Data\Level\LevelConfig.cs" />
     <Compile Include="Assets\Scripts\Data\Level\MonsterConfig.cs" />
-    <Compile Include="Assets\Scripts\Data\Level\PlotConfig.cs" />
+    <Compile Include="Assets\Scripts\Data\Level\MonsterItem.cs" />
     <Compile Include="Assets\Scripts\Data\Level\TreeConfig.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Assist\BetterList.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\FOWSystem.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Logic\FOWLogic.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Render\FOWRender.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Render\MapFOWRender.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Render\MiniMapFOWRender.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Revealer\FOWCharactorRevealer.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Revealer\FOWRevealer.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Revealer\FOWTempRevealer.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\FogOfWar\Revealer\IFOWRevealer.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\message\CallBack.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\message\Message.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\message\MessageName.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\pool\ClassObjPoolBase.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\pool\ClassObjPoolT.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\pool\PooledClassObject.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\singleton\MonoSingleton.cs" />
+    <Compile Include="Assets\Scripts\FogOfWar\singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\Game\Game.cs" />
     <Compile Include="Assets\Scripts\Game\GameModel.cs" />
     <Compile Include="Assets\Scripts\Level\Level0Ctrl.cs" />
+    <Compile Include="Assets\Scripts\Level\Level1\Book.cs" />
     <Compile Include="Assets\Scripts\Level\Level1\LevelLoadExporter.cs" />
     <Compile Include="Assets\Scripts\Princess\Princess.cs" />
     <Compile Include="Assets\Scripts\Princess\PrincessAnimController.cs" />
@@ -160,6 +130,8 @@
     <Compile Include="Assets\Scripts\Test\TestPrincessAnim.cs" />
     <Compile Include="Assets\Scripts\Tools\PlantElement.cs" />
     <Compile Include="Assets\Scripts\Tree\Tree.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\ConstValues.cs" />
     <Compile Include="Assets\Scripts\Utils\GameUtility.cs" />
     <Compile Include="Assets\Scripts\Utils\MathUtility.cs" />
     <Compile Include="Assets\Scripts\Utils\SpriteUtility.cs" />
@@ -276,16 +248,12 @@
     <Compile Include="Assets\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
     <Compile Include="Assets\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
     <Compile Include="Assets\spine-unity\Assets\spine-unity\SpineAttributes.cs" />
-    <None Include="Assets\2DDL\Examples\16 - Soft and Smooth shadows edges\_BloomAndFlares\MobileBlur.shader" />
-    <None Include="Assets\2DDL\2DLight\Shaders\StencilObject.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Eyes\eyes.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Shaders\Utility\HiddenPass.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Spine-Skeleton-Fill.shader" />
-    <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturized.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
-    <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
     <None Include="Assets\SpineAnimation\怪物\guaiwu.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
@@ -293,17 +261,13 @@
     <None Include="Assets\spine-unity\Assets\Examples\Spine\spineboy-pro\spineboy.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Gauge\Gauge.atlas.txt" />
     <None Include="Assets\SpineAnimation\公主\公主.atlas.txt" />
-    <None Include="Assets\2DDL\2DLight\Shaders\occluded.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
-    <None Include="Assets\2DDL\2DLight\Shaders\RadialGradientAlphaBlend.shader" />
     <None Include="Assets\Shader\Circle Anti-Aliasing.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\FootSoldier\FS_White.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
-    <None Include="Assets\2DDL\2DLight\Shaders\DepthMask.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Hero\hero-mesh.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Dragon\license.txt" />
-    <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Hero\license.txt" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Goblins\goblins.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Strechyman\stretchyman-diffuse-pma.atlas.txt" />
@@ -314,9 +278,7 @@
     <None Include="Assets\spine-unity\Assets\Examples\Spine\spineboy-unity\spineboy.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
-    <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\FootSoldier\license.txt" />
-    <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedAdditive.shader" />
     <None Include="Assets\Shader\Mask.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\version.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
@@ -327,22 +289,18 @@
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
-    <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedWithAlpha.shader" />
-    <None Include="Assets\2DDL\2DLight\Shaders\StencilMask.shader" />
-    <None Include="Assets\2DDL\2DLight\Shaders\VertexColor.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Dragon\dragon.atlas.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Shaders\Spine-Skeleton-TintBlack.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
-    <None Include="Assets\2DDL\2DLight\Shaders\Gradient-ZFighting.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Shaders\Spine-Skeleton.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraNormalsTexture.shader" />
     <None Include="Assets\spine-unity\Assets\Examples\Spine\Spineunitygirl\Doi.atlas.txt" />
+    <None Include="Assets\Resources\Shader\FOWRender.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraDepthTexture.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Multiply.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
-    <None Include="Assets\2DDL\2DLight\Shaders\occluder.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
     <None Include="Assets\spine-unity\Assets\spine-unity\Shaders\Spine-SkeletonLit.shader" />
@@ -438,12 +396,6 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="BugReportUtils">
-      <HintPath>E:/LostPrincess/Assets/2DDL/2DLight/BugReport/Editor/BugReportUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="Resources2DDL">
-      <HintPath>E:/LostPrincess/Assets/2DDL/2DLight/Utils/Resources2DDL.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -453,156 +405,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/Unity2017/Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
