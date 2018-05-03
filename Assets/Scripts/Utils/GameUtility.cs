@@ -39,5 +39,13 @@ namespace  Utils
 		    }
 	    }
 
+	    public static void SetActiveSelf(this GameObject gameObject, bool active)
+	    {
+		    if (gameObject.activeSelf != active)
+		    {
+			    gameObject.SetActive(active);
+		    }
+	    }
+
     }
 }

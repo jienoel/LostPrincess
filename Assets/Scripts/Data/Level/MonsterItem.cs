@@ -10,8 +10,8 @@ public enum DropType
 }
 
 
-[System.Serializable]
-public class MonsterItem
+[CreateAssetMenu(fileName = "MonsterItem",menuName = "Level/MonsterItem", order = 30)]
+public class MonsterItem: ScriptableObject 
 {
 	public int id;
 	public int bodyLength = 1;

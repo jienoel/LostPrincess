@@ -34,8 +34,8 @@ public class TypeWriter : MonoBehaviour
 		{
 			txt.text = story;
 			StopAllCoroutines();
-			
 		}
+		ClearText();
 		isTyping = true;
 		story = text;
 		StartCoroutine(PlayText());

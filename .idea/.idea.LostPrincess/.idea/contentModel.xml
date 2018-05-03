@@ -80,7 +80,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Behavior" t="Include">
-            <e p="BookColliderDetector.cs" t="Include" />
+            <e p="ColliderDetector.cs" t="Include" />
             <e p="NumberCount.cs" t="Include" />
             <e p="SpeechBubble.cs" t="Include" />
             <e p="SpriteFlipCtrl.cs" t="Include" />

@@ -9,4 +9,5 @@ public class GameModel : MonoBehaviour
 	public BoneFire boneFirePrefab;
 	public GameObject boneFireParent;
 	public LevelConfig levelConfig;
+	public Book bookPrefab;
 }

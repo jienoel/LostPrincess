@@ -9,15 +9,10 @@ public class Bullet : MonoBehaviour {
 	}
 
 	private void OnCollisionEnter(Collision collision) {
-		if (!collision.gameObject.CompareTag("Player"))
+		if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Plane"))
 		{
 			gameObject.SetActive(false);
 			Debug.Log("OnCollider :"+collision.gameObject.name);
-			Monster monster = collision.gameObject.GetComponent<Monster>();
-			if (monster!=null)
-			{
-				monster.OnHitByBullet();
-			}
 		}
 	}
 }

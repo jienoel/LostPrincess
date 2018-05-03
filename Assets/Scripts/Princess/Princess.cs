@@ -21,14 +21,11 @@ public class Princess:MonoBehaviour
 	public LayerMask groundLayer;
 	public SpriteFlipCtrl flipCtrl;
 	public float thresholdTime = 0.1f;
-	public float thresholdDistance = 0.01f;
+	public float longPressTime = 0.05f;
 	public bool isAttcking;
 	[Header("Attack")]
 	public float maxDistance = 10f;
 	// 最大手指/鼠标拖动范围
-	public float maxDegree = 45;
-	public float force = 10f;
-	public LaunchArcMesh hint;
 	public GameObject mousePosObj;
 	public LineRenderer lineRenderer;
 	public GameObject bulletPrefab;
@@ -63,43 +60,50 @@ public class Princess:MonoBehaviour
 			if (isClicked)
 			{
 				var currPoint = GetGroundPoint();
-				if (clickPos != Vector3.down && currPoint != Vector3.down)
-				{
-					flipCtrl.Flip(clickPos , currPoint);
-				}
 				var currDir = CalculateDirection(currPoint, clickPos);
-				DisplayLine(true, currDir);
-				Debug.DrawLine(clickPos,currPoint);
-				lineRenderer.SetPosition(0,clickPos);
-				lineRenderer.SetPosition(1,currPoint);
-				mousePosObj.transform.position = currPoint;
+				
+				if (Time.time - clickTime > longPressTime)
+				{
+					_princessAnimController.SetAttack();
+					if (clickPos != Vector3.down && currPoint != Vector3.down)
+					{
+						flipCtrl.Flip(clickPos , currPoint);
+					}
+					Debug.DrawLine(clickPos,currPoint);
+					lineRenderer.SetPosition(0,clickPos);
+					lineRenderer.SetPosition(1,currPoint);
+					DisplayLine(true, currDir);
+					mousePosObj.transform.position = currPoint;
+				}
 
 				if (Input.GetMouseButtonUp(0))
 				{
-					Debug.Log(" Mouse Button Up " + Time.time.ToString() + "  " + clickTime.ToString());
 					var releaseTime = Time.time;
+					Debug.Log(" Mouse Button Up " + Time.time.ToString() + "  " + clickTime.ToString() +"  "+(releaseTime - clickTime).ToString());
 					if (releaseTime - clickTime < thresholdTime)
 					{
+						Debug.Log("less then thresholdTime and move!");
+						Move();
 					}
 					else
 					{
 						if (clickPos != Vector3.down && currPoint != Vector3.down)
 						{
-                       
 							isAttcking = true;
 							Debug.Log("set animator bool attack true");
 							//animator.SetTrigger(AnimatorParam.triggerAttack);
 							var bullet = Instantiate(bulletPrefab, clickPos, Quaternion.identity,transform);
 							Parabola parabola = bullet.GetComponent<Parabola>();
-							parabola.Ta = transform.InverseTransformPoint(clickPos);
-							parabola.Tb = transform.InverseTransformPoint(currPoint);
-							parabola.relative = transform;
+							parabola.Ta = transform.parent.InverseTransformPoint(clickPos);
+							parabola.Tb = transform.parent.InverseTransformPoint(currPoint);
+							parabola.relative = transform.parent;
 							//parabola.Tb.y = clickPos.y;
 							Debug.Log(string.Format("Ta:{0} , Tb:{1}, direction:{2}",parabola.Ta.ToString(), parabola.Tb.ToString(), (parabola.Tb - parabola.Ta).ToString()));
-							DisplayLine(false, currDir);
+							
                        
 						}
 					}
+					DisplayLine(false, currDir);
 					isClicked = false;
 					clickTime = Time.time;
 					//animator.SetBool(AnimatorParam.BoolAttackPre, false);
@@ -108,9 +112,13 @@ public class Princess:MonoBehaviour
 			}
 			else
 			{
-				CheckInput();
+				if( Input.GetMouseButtonDown(0))
+				{
+					Move();
+				}
 			}
-			
+
+			CheckMove();
 			ChangeAnimation();
 		}
 	}
@@ -119,16 +127,13 @@ public class Princess:MonoBehaviour
 	{
 		if (canDisplay)
 		{
-			//hint.gameObject.SetActive(true);
-			//hint.Show();
-			dir.y = 360 - Mathf.Atan2(dir.z, dir.x) * Mathf.Rad2Deg -90 ;
-			dir.x = 0;
-			dir.z = 0;
-			//hint.transform.localEulerAngles = dir;
+			if (!lineRenderer.gameObject.activeSelf)
+				lineRenderer.gameObject.SetActive(true);
 		}
 		else
 		{
-			//hint.gameObject.SetActive(false);
+			if (lineRenderer.gameObject.activeSelf)
+				lineRenderer.gameObject.SetActive(false);
 		}
 	}
 	
@@ -156,7 +161,7 @@ public class Princess:MonoBehaviour
 		isClicked = true;
 		Debug.Log("On Mouse Down " + Time.time.ToString() + "  "+trans.name); 
 		StopMove();
-		_princessAnimController.SetAttack();
+		
 		clickTime = Time.time;
 		clickPos = transform.position;
 		clickPos.y += centerY;
@@ -185,25 +190,28 @@ public class Princess:MonoBehaviour
 		return  _dialogBubble.CloseBubble(_dialogBubble); 
 	}
 
-	void CheckInput()
+	void Move()
 	{
 	
-		if( Input.GetMouseButtonDown(0))
+		if (!CloseInnerOS())
 		{
-			if (!CloseInnerOS())
+			Debug.Log("get ray to start move:"+Input.mousePosition.ToString());
+			Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
+			RaycastHit hit;
+			if( Physics.Raycast( ray, out hit, 1000 , groundLayer) )
 			{
-				Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
-				RaycastHit hit;
-				if( Physics.Raycast( ray, out hit, 1000 , groundLayer) )
-				{
-					Debug.Log( "Fire1 " +hit.point.ToString());
-					_navMeshAgent.SetDestination( hit.point );
-					_navMeshAgent.isStopped = false;
-					walking = true;
-				}
+				Debug.Log( "Fire1 " +hit.point.ToString());
+				_navMeshAgent.SetDestination( hit.point );
+				_navMeshAgent.isStopped = false;
+				walking = true;
 			}
 		}
 
+		
+	}
+
+	void CheckMove()
+	{
 		if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance) {
 			if (!_navMeshAgent.hasPath || Mathf.Abs (_navMeshAgent.velocity.sqrMagnitude) < float.Epsilon)
 				walking = false;

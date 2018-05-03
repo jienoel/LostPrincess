@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Book : MonoBehaviour
 {
-	private BookColliderDetector _bookColliderDetector;
+	private ColliderDetector _colliderDetector;
 	public int id;
 	private void Start()
 	{
-		_bookColliderDetector = GetComponentInChildren<BookColliderDetector>();
-		_bookColliderDetector.onPlayerEnter += OnPlayerEnter;
+		_colliderDetector = GetComponentInChildren<ColliderDetector>();
+		_colliderDetector.onPlayerEnter += OnPlayerEnter;
 	}
 
 	void OnCollisionEnter(Collision collision)
@@ -30,8 +30,8 @@ public class Book : MonoBehaviour
 
 	private void OnDestroy()
 	{
-		if (_bookColliderDetector)
-			_bookColliderDetector.onPlayerEnter -= OnPlayerEnter;
+		if (_colliderDetector)
+			_colliderDetector.onPlayerEnter -= OnPlayerEnter;
 	}
 
 	void OnPlayerEnter()
