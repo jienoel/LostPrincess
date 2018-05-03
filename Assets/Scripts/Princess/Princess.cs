@@ -27,6 +27,14 @@ public class Princess:MonoBehaviour
 	public float maxDistance = 10f;
 	// 最大手指/鼠标拖动范围
 	public float maxDegree = 45;
+	public float force = 10f;
+	public LaunchArcMesh hint;
+	public GameObject mousePosObj;
+	public LineRenderer lineRenderer;
+	public GameObject bulletPrefab;
+	public float centerY = 0.5f;
+	public float speed = 1;
+	public Vector3 gravity;
 	void Awake()
 	{
 		_navMeshAgent = GetComponent<NavMeshAgent>();
@@ -38,6 +46,7 @@ public class Princess:MonoBehaviour
 	void Start()
 	{
 		Messenger.AddListener<int>(MessageName.MN_Trigger_OS,ShowInnerOS);
+		Messenger.AddListener<Transform>(MessageName.MN_Mouse_Down, OnMouseDown);
 	}
 
 	// Update is called once per frame
@@ -58,8 +67,13 @@ public class Princess:MonoBehaviour
 				{
 					flipCtrl.Flip(clickPos , currPoint);
 				}
-				//var currDir = CalculateDirection(currPoint - clickPos);
-				//DisplayLine(true, currDir);
+				var currDir = CalculateDirection(currPoint, clickPos);
+				DisplayLine(true, currDir);
+				Debug.DrawLine(clickPos,currPoint);
+				lineRenderer.SetPosition(0,clickPos);
+				lineRenderer.SetPosition(1,currPoint);
+				mousePosObj.transform.position = currPoint;
+
 				if (Input.GetMouseButtonUp(0))
 				{
 					Debug.Log(" Mouse Button Up " + Time.time.ToString() + "  " + clickTime.ToString());
@@ -75,16 +89,21 @@ public class Princess:MonoBehaviour
 							isAttcking = true;
 							Debug.Log("set animator bool attack true");
 							//animator.SetTrigger(AnimatorParam.triggerAttack);
-							//var bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-							//bullet.GetComponent<Rigidbody>().AddForce(currDir * force, ForceMode.Impulse);
-							//DisplayLine(false, currDir);
+							var bullet = Instantiate(bulletPrefab, clickPos, Quaternion.identity,transform);
+							Parabola parabola = bullet.GetComponent<Parabola>();
+							parabola.Ta = transform.InverseTransformPoint(clickPos);
+							parabola.Tb = transform.InverseTransformPoint(currPoint);
+							parabola.relative = transform;
+							//parabola.Tb.y = clickPos.y;
+							Debug.Log(string.Format("Ta:{0} , Tb:{1}, direction:{2}",parabola.Ta.ToString(), parabola.Tb.ToString(), (parabola.Tb - parabola.Ta).ToString()));
+							DisplayLine(false, currDir);
                        
 						}
 					}
 					isClicked = false;
 					clickTime = Time.time;
 					//animator.SetBool(AnimatorParam.BoolAttackPre, false);
-					transform.rotation = Quaternion.identity;
+					transform.localRotation = Quaternion.identity;
 				}
 			}
 			else
@@ -96,33 +115,51 @@ public class Princess:MonoBehaviour
 		}
 	}
 	
-	
-	private Vector3 CalculateDirection(Vector3 dir)
+	private void DisplayLine(bool canDisplay, Vector3 dir)
 	{
-		var direction = -dir.normalized;
-		var magnitude = Mathf.Clamp(dir.magnitude, 0, maxDistance);
-		var anotherVec = Mathf.Lerp(0, Mathf.Tan(Mathf.Deg2Rad * maxDegree), magnitude / maxDistance) * Vector3.up;
-		return (direction + anotherVec).normalized;
+		if (canDisplay)
+		{
+			//hint.gameObject.SetActive(true);
+			//hint.Show();
+			dir.y = 360 - Mathf.Atan2(dir.z, dir.x) * Mathf.Rad2Deg -90 ;
+			dir.x = 0;
+			dir.z = 0;
+			//hint.transform.localEulerAngles = dir;
+		}
+		else
+		{
+			//hint.gameObject.SetActive(false);
+		}
+	}
+	
+	private Vector3 CalculateDirection(Vector3 endPos, Vector3 startPos)
+	{
+		startPos = mousePosObj.transform.InverseTransformPoint(startPos);
+		endPos = mousePosObj.transform.InverseTransformPoint(endPos);
+		startPos.y = 0;
+		endPos.y = 0;
+		return -endPos + startPos;
 	}
 	
 	private Vector3 GetGroundPoint()
 	{
 		RaycastHit hit;
-		if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 100, groundLayer))
+		if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 1000, groundLayer))
 		{
 			return hit.point;
 		}
 		return Vector3.down;
 	}
 
-	private void OnMouseDown()
+	private void OnMouseDown(Transform trans)
 	{
 		isClicked = true;
-		Debug.Log("On Mouse Down " + Time.time.ToString()); 
-		isClicked = true;
+		Debug.Log("On Mouse Down " + Time.time.ToString() + "  "+trans.name); 
 		StopMove();
+		_princessAnimController.SetAttack();
 		clickTime = Time.time;
-		clickPos = GetGroundPoint();
+		clickPos = transform.position;
+		clickPos.y += centerY;
 	}
 
 	void StopMove()
@@ -151,13 +188,13 @@ public class Princess:MonoBehaviour
 	void CheckInput()
 	{
 	
-		if( Input.GetMouseButtonDown(0) )
+		if( Input.GetMouseButtonDown(0))
 		{
 			if (!CloseInnerOS())
 			{
 				Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
 				RaycastHit hit;
-				if( Physics.Raycast( ray, out hit, 1000 ) )
+				if( Physics.Raycast( ray, out hit, 1000 , groundLayer) )
 				{
 					Debug.Log( "Fire1 " +hit.point.ToString());
 					_navMeshAgent.SetDestination( hit.point );
@@ -190,5 +227,6 @@ public class Princess:MonoBehaviour
 	private void OnDestroy()
 	{
 		Messenger.RemoveListener<int>(MessageName.MN_Trigger_OS,ShowInnerOS);
+		Messenger.RemoveListener<Transform>(MessageName.MN_Mouse_Down, OnMouseDown);
 	}
 }

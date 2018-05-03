@@ -8,5 +8,6 @@ public struct MessageName
     public const string MN_Book_Click = "onBookClick";
     public const string MN_Diary_Read = "onReadDiary";
     public const string MN_Trigger_OS = "TriggerOS";
+    public const string MN_Mouse_Down = "OnMouseDown";
 } 
 

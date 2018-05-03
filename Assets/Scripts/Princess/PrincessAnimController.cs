@@ -65,7 +65,7 @@ public class PrincessAnimController:MonoBehaviour
 
     public void SetAttack()
     {
-        
+        SetAnimaiton(attackAnimation,false);
     }
 
     public void SetHurt()

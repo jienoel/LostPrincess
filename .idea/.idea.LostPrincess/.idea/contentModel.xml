@@ -160,13 +160,18 @@
               <e p="LevelLoadExporter.cs" t="Include" />
             </e>
           </e>
+          <e p="Monster" t="Include">
+            <e p="Monster.cs" t="Include" />
+          </e>
           <e p="Princess" t="Include">
+            <e p="Inputter.cs" t="Include" />
             <e p="Princess.cs" t="Include" />
             <e p="PrincessAnimController.cs" t="Include" />
-            <e p="Shoot.cs" t="Include" />
           </e>
           <e p="Projectile" t="Include">
+            <e p="Bullet.cs" t="Include" />
             <e p="LaunchArcMesh.cs" t="Include" />
+            <e p="parabola.cs" t="Include" />
           </e>
           <e p="Test" t="Include">
             <e p="BounderTest.cs" t="Include" />

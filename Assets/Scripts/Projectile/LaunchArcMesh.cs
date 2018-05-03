@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter))]
+[RequireComponent(typeof(MeshCollider))]
 public class LaunchArcMesh : MonoBehaviour
 {
 	private Mesh mesh;
@@ -13,10 +14,11 @@ public class LaunchArcMesh : MonoBehaviour
 	public int resolution = 10;
 	private float g;
 	private float radianAngle;
-
+	private MeshCollider _meshCollider;
 	void Awake()
 	{
 		mesh = GetComponent<MeshFilter>().mesh;
+		_meshCollider = GetComponent<MeshCollider>();
 		g = Mathf.Abs( Physics2D.gravity.y );
 	}
 
@@ -25,6 +27,7 @@ public class LaunchArcMesh : MonoBehaviour
 		if( mesh != null && Application.isPlaying )
 		{
 			Show();
+			_meshCollider.sharedMesh = mesh;
 		}
 	}
 
@@ -39,8 +42,9 @@ public class LaunchArcMesh : MonoBehaviour
 		MakeArcMesh(CalculateArcArray());
 	}
 
-	void MakeArcMesh(Vector3[] arcVerts)
+	public	void MakeArcMesh(Vector3[] arcVerts)
 	{
+		resolution = arcVerts.Length - 1;
 		mesh.Clear();
 		Vector3[] vertices = new Vector3[(resolution + 1) * 2] ;
 		int[] triangles = new int[resolution * 6 * 2];
@@ -68,6 +72,7 @@ public class LaunchArcMesh : MonoBehaviour
 		}
 		mesh.vertices = vertices;
 		mesh.triangles = triangles;
+		_meshCollider.sharedMesh = mesh;
 	}
 
 	Vector3[] CalculateArcArray()
