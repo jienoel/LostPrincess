@@ -109,6 +109,7 @@
           </e>
           <e p="Editor" t="Include">
             <e p="Tools" t="Include">
+              <e p="GameInspector.cs" t="Include" />
               <e p="MeshSave.cs" t="Include" />
               <e p="SpriteInfoTool.cs" t="Include" />
             </e>

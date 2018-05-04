@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   trees: {fileID: 0}
-  monsters: {fileID: 0}
+  monsters: {fileID: 11400000, guid: 29597739dfa9a9848af5382811277104, type: 2}
   Diaries: {fileID: 11400000, guid: 0d9754f6412ab8e4eaced3b43bc6d59c, type: 2}
   innerOses: {fileID: 11400000, guid: 7a44a93a75469f942b5547d59e84c020, type: 2}
